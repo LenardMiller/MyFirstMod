@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "myfirstmod:blocks/frea_block",
+    "down": "myfirstmod:blocks/frea_block_top",
+    "up": "myfirstmod:blocks/frea_block_top",
+    "east": "myfirstmod:blocks/frea_block",
+    "west": "myfirstmod:blocks/frea_block",
+    "north": "myfirstmod:blocks/frea_block",
+    "south":"myfirstmod:blocks/frea_block"
+  }
+}

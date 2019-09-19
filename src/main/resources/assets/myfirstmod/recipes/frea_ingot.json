@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "myfirstmod:frea_ingot"
+  },
+  "pattern": [
+    "fff",
+    "fff",
+    "fff"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "f": {
+      "item": "myfirstmod:frea_nugget"
+    }
+  }
+}

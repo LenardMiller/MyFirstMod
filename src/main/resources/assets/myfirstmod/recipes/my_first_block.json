@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "myfirstmod:my_first_block"
+  },
+  "pattern": [
+    " w ",
+    "wgw",
+    " w "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "w": {
+      "type": "forge:ore_dict",
+      "ore": "dyeWhite"
+    },
+    "g": {
+      "item": "minecraft:glowstone"
+    }
+  }
+}

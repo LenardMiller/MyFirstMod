@@ -1,0 +1,8 @@
+tile.myfirstmod.my_first_block.name=My First Block!
+tile.myfirstmod.frea_ore.name=Frea Ore
+tile.myfirstmod.frea_block.name=Block of Frea
+
+item.myfirstmod.frea_ingot.name=Frea Ingot
+item.myfirstmod.frea_nugget.name=Frea Nugget
+item.myfirstmod.frea_shovel.name=Frea Shovel
+item.myfirstmod.frea_sword.name=Frea Sword
