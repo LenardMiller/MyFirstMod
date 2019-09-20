@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "myfirstmod:frea_axe"
+  },
+  "pattern": [
+    "ff ",
+    "fs ",
+    " s "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "f": {
+      "item": "myfirstmod:frea_ingot"
+    },
+    "s": {
+      "item": "minecraft:reeds"
+    }
+  }
+}
