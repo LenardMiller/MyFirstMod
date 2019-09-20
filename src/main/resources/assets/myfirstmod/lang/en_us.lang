@@ -5,4 +5,7 @@ tile.myfirstmod.frea_block.name=Block of Frea
 item.myfirstmod.frea_ingot.name=Frea Ingot
 item.myfirstmod.frea_nugget.name=Frea Nugget
 item.myfirstmod.frea_shovel.name=Frea Shovel
+item.myfirstmod.frea_pickaxe.name=Frea Pickaxe
+item.myfirstmod.frea_axe.name=Frea Axe
+item.myfirstmod.frea_hoe.name=Frea Hoe
 item.myfirstmod.frea_sword.name=Frea Sword
