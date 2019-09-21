@@ -1,18 +1,18 @@
-package leopard501.myfirstmod.init;
+package leopard501.myfirstmod.init.armor;
 
 import leopard501.myfirstmod.MyFirstMod;
+import leopard501.myfirstmod.init.IBaseModel;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.item.ItemHoe;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ToolHoe extends ItemHoe implements IBaseModel {
+public class ArmorBase extends ItemArmor implements IBaseModel {
 
-    public ToolHoe(String name, ToolMaterial material) {
-
-        super(material);
+    public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn){
+        super(materialIn, renderIndexIn, equipmentSlotIn);
 
         setRegistryName(name);
         setUnlocalizedName(MyFirstMod.MODID + "." + name);
@@ -20,10 +20,7 @@ public class ToolHoe extends ItemHoe implements IBaseModel {
     }
 
     @Override
-    public void registerModels(){
-
-        MyFirstMod.proxy.registerItemRenderer(this, 0, "inventory");
-    }
+    public void registerModels() {}
 
     @SideOnly(Side.CLIENT)
     public void initModel() {

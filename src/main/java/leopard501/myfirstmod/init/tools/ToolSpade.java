@@ -1,17 +1,16 @@
-package leopard501.myfirstmod.init;
+package leopard501.myfirstmod.init.tools;
 
 import leopard501.myfirstmod.MyFirstMod;
+import leopard501.myfirstmod.init.IBaseModel;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ToolPickaxe extends ItemPickaxe implements IBaseModel {
+public class ToolSpade extends ItemSpade implements IBaseModel {
 
-    public ToolPickaxe(String name, ToolMaterial material) {
-
+    public ToolSpade(String name, ToolMaterial material) {
         super(material);
 
         setRegistryName(name);
